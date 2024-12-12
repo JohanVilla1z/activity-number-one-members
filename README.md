@@ -1,8 +1,8 @@
 # activity-number-one-members
 
 ## autors
- - sebastian barrera
- - johan villa
+ - Sebastian Barrera
+ - Johan Villa
 
 ## version history
 *   a67e377 (HEAD -> development, origin/development) Merge pull request #9 from JohanVilla1z/feature/global-styles
@@ -63,3 +63,6 @@
 |/
 * 2ada095 feat: :sparkles: Setting up project
 * 92c1c38 Initial commit
+
+## image history
+![graphTree](https://github.com/user-attachments/assets/51743daf-50cf-4c89-a1e7-d58e267f619b)
