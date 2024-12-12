@@ -4,158 +4,171 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     
     <title>Members</title>
 </head>
 <body>
-  <header>
-    <h1 class="title">
-        Bienvenidos a nuestra presentación
-    </h1>
-    <div class="presentation">
-        <div class="separator__header"> 
-            <p class="description__header">
-                Sumérgete en nuestro universo de programación. Somos dos apasionados por la tecnología, en constante búsqueda de soluciones innovadoras. Únete a nosotros para descubrir cómo dos principiantes están dando sus primeros pasos en este emocionante mundo.
-            </p>
-        </div>
+    <div>
 
-        <div class="carousel">
-            <div class="carousel__container">
-                <img src="../public/assets/carrousel-1.jpg" alt="Imagen 1" class="carousel__item">
-                <img src="../public/assets/carrousel-2.jpg" alt="Imagen 2" class="carousel__item">
-                <img src="../public/assets/carrousel-3.jpg" alt="Imagen 3" class="carousel__item">
-            </div>
-            <button class="carousel__button carousel__button--prev">◀</button>
-            <button class="carousel__button carousel__button--next">▶</button>
-        </div>
-    </div>
-    <h3 class="title__secundary">¿Quienes somos?</h3>
-</header>
-
-    <div class="bios">
-      <div class="column">
-        <img src="../public/assets/avatar-placeholder.jpg" alt="avatar-pic" class="avatar"/>
-        <b>Sebastián Barrera Herrera</b>
-
-        <p>
-          Soy un estudiante de desarrollo de software con conocimientos en desarrollo frontend y backend. Estoy familiarizado con frameworks como React y Next.js, Nest.js y con bases de datos como PostgreSQL
-        </p>
-
-        <div class="container__list">
-          <div class="container__hobie">
-            <h4 class="title__list--hobbie">En mi tiempo libre me gusta</h4>
-            <ul class="list__hobbie">
-              <li>Programar</li>
-              <li>Leer</li>
-              <li>Montar bicicleta</li>
-              <li>Hacer ejercicio</li>
-            </ul>
-          </div>
-
-          <div class="container__hobbies--mosaic">
-            <div class="mosaic__flexbox">
-              <img src="../public/assets/carrousel-1.jpg" alt="Mosaico 1" class="mosaic__item">
-              <img src="../public/assets/carrousel-2.jpg" alt="Mosaico 2" class="mosaic__item">
-              <img src="../public/assets/carrousel-3.jpg" alt="Mosaico 3" class="mosaic__item">
-            </div>
-          </div>
-
-          <div class="container__studies">
-            <h4 class="title__list--studies">Estudios</h4>
-            <ul class="list__studies">
-              <li>Cemped empresarial</li>
-              <li>analisis y desarrollo de software</li>
-            </ul>
-          </div>
-
-          <div class="container_expectations">
-            <h4 class="title__expectations">Que expectativas se tienen del training?</h4>
-            <p class="parrafo__expectations">
-              Espero que el entrenamiento me permita sumergirme en el desarrollo de aplicaciones web con Java y Angular de manera práctica. Me interesa mucho trabajar con entornos de desarrollo reales y aplicar los conocimientos adquiridos a proyectos concretos. Además, espero poder resolver problemas y desafíos típicos de la industria.
-            </p>
-          </div>
-        </div>
-
-        <button class="button-social--sb" id="social-button">contactarme</button>
-         <dialog class="dialog" id="dialog">
-          <img src="https://cdn-icons-png.flaticon.com/512/7331/7331166.png" alt="equis" id="close" class="close">
-          <h2 >Hola, soy Sebastián</h2>
-          <span class="social__parrafo">Estas son algunas de mis redes sociales donde podras ver mis proyectos y contactarme</span>
-
-          <ul class="social-networks">
-            <li class="social__item"><a href="#" target="_blank" >Linkedin</a></li>
-            <li class="social__item"><a href="#" target="_blank" >Github</a></li>
-            <li class="social__item"><a href="#" target="_blank" >Twitter</a></li>
-            <li class="social__item"><a href="#" target="_blank" >Instagram</a></li>
-          </ul>
-        </dialog>
- 
-      </div>
-
-
-      <div class="column">
-        <img src="../public/assets/avatar-placeholder.jpg" alt="avatar-pic" class="avatar"/>
-        <b>Johan Villa Osorio</b>
-        <p>
-          Tecnólogo en analisis y desarrollo de software, con conocimientos en 
-          desarrollo web usando librerias como ReactJS, Tanstack Query, bases 
-          de datos no relacionales como mongoDB y firebase firestoreDB. Actualmente 
-          estudia para completar su stack en backend con NestJS y en un futuro, Java.
-        </p>
-
-        <div class="container__list">
-          <div class="container__hobie">
-            <h4 class="title__list--hobbie">En mi tiempo libre me gusta</h4>
-            <ul class="list__hobbie">
-              <li>Ver series</li>
-              <li>Leer</li>
-              <li>Hacer ejercicio</li>
-            </ul>
-          </div>
-
-            <div class="container__hobbies--mosaic">
-              <div class="mosaic__flexbox">
-                <img src="../public/assets/johan-hobby-1.png" alt="Imagen relativa a onepiece" class="mosaic__item">
-                <img src="../public/assets/johan-hobby-2.jpg" alt="imagen relativa a libros cientificos" class="mosaic__item">
-                <img src="../public/assets/johan-hobby-3.jpg" alt="imagen relativa a ejercicio" class="mosaic__item">
+        <header>
+          <h1 class="title">
+              Bienvenidos a nuestra presentación
+          </h1>
+          <div class="presentation">
+              <div class="separator__header"> 
+                  <p class="description__header">
+                      Sumérgete en nuestro universo de programación. Somos dos apasionados por la tecnología, en constante búsqueda de soluciones innovadoras. Únete a nosotros para descubrir cómo dos principiantes están dando sus primeros pasos en este emocionante mundo.
+                  </p>
               </div>
-            </div>
-
-          <div class="container__studies">
-            <h4 class="title__list--studies">Estudios</h4>
-            <ul class="list__studies">
-              <li>Colombo Americano</li>
-              <li>Física (UdeA)</li>
-              <li>Análisis y desarrollo de software (SENA)</li>
-              <li>Arquitectura en la nube (Talento Tech Bogotá)</li>
-            </ul>
+      
+              <div class="carousel">
+                  <div class="carousel__container">
+                      <img src="../public/assets/carrousel-1.jpg" alt="Imagen 1" class="carousel__item">
+                      <img src="../public/assets/carrousel-2.jpg" alt="Imagen 2" class="carousel__item">
+                      <img src="../public/assets/carrousel-3.jpg" alt="Imagen 3" class="carousel__item">
+                  </div>
+                  <button class="carousel__button carousel__button--prev">◀</button>
+                  <button class="carousel__button carousel__button--next">▶</button>
+              </div>
           </div>
-
-          <div class="container_expectations">
-            <h4 class="title__expectations">Que expectativas se tienen del training?</h4>
-            <p class="parrafo__expectations">
-              Espero que el entranamiento me permita adquirir conocimientos en el desarrollo de aplicaciones 
-              con el enfoque de fullstack, aplicando tecnologías como Java y Angular para crear soluciones
-              a problemas reales. Además, espero poder trabajar en equipo y aprender de mis compañeros.
-            </p>
-          </div>
-
-          <button class="button-social--jv" id="johan-social-button">contactarme</button>
-
-          <dialog class="dialog" id="johan-dialog">
-            <img src="https://cdn-icons-png.flaticon.com/512/7331/7331166.png" alt="equis" id="close-johan-socials" class="close">
-            <h2 >Hola, soy Johan!</h2>
-            <span class="social__parrafo">Estas son algunas de mis redes sociales donde podrás ver mis proyectos y contactarme</span>
-  
-            <ul class="social-networks">
-              <li class="social__item"><a href="https://www.linkedin.com/in/johan-villa-669b02281/" target="_blank" >Linkedin</a></li>
-              <li class="social__item"><a href="https://github.com/JohanVilla1z" target="_blank" >Github</a></li>
-              <li class="social__item"><a href="https://www.instagram.com/villa1z/" target="_blank" >Instagram</a></li>
-            </ul>
-          </dialog>
-
-      </div>
+          <img src="https://firebasestorage.googleapis.com/v0/b/drecreo-b4af8.appspot.com/o/images%2Folasbtmod.png?alt=media&token=017b1738-dd80-4e42-9946-bc15ddc59e7f" alt="banner" class="banner">
+          <h3 class="title__secundary">¿Quienes somos?</h3>
+      </header>
+      
+          <main>
+            <div class="bios">
+                <div class="column">
+                  <img src="../public/assets/perfil1.jpg" alt="avatar-pic" class="avatar"/>
+                  <b>Sebastián Barrera Herrera</b>
+          
+                  <p>
+                    Soy un estudiante de desarrollo de software con conocimientos en desarrollo frontend y backend. Estoy familiarizado con frameworks como React y Next.js, Nest.js y con bases de datos como PostgreSQL
+                  </p>
+          
+                  <div class="container__list">
+                    <div class="container__hobie">
+                      <h4 class="title__list--hobbie">En mi tiempo libre me gusta</h4>
+                      <ul class="list__hobbie">
+                        <li>Programar</li>
+                        <li>Leer</li>
+                        <li>Montar bicicleta</li>
+                        <li>Hacer ejercicio</li>
+                      </ul>
+                    </div>
+          
+                    <div class="container__hobbies--mosaic">
+                      <div class="mosaic__flexbox">
+                        <img src="../public/assets/bicicleta.jpg" alt="Mosaico 1" class="mosaic__item">
+                        <img src="../public/assets/leer.jpg" alt="Mosaico 2" class="mosaic__item">
+                        <img src="../public/assets/programar.jpeg" alt="Mosaico 3" class="mosaic__item">
+                      </div>
+                    </div>
+          
+                    <div class="container__studies">
+                      <h4 class="title__list--studies">Estudios</h4>
+                      <ul class="list__studies">
+                        <li>Cemped empresarial</li>
+                        <li>analisis y desarrollo de software</li>
+                      </ul>
+                    </div>
+          
+                    <div class="container_expectations">
+                      <h4 class="title__expectations">Que expectativas se tienen del training?</h4>
+                      <p class="parrafo__expectations">
+                        Espero que el entrenamiento me permita sumergirme en el desarrollo de aplicaciones web con Java y Angular de manera práctica. Me interesa mucho trabajar con entornos de desarrollo reales y aplicar los conocimientos adquiridos a proyectos concretos. Además, espero poder resolver problemas y desafíos típicos de la industria.
+                      </p>
+                    </div>
+                  </div>
+          
+                  <button class="button-social--sb" id="social-button" >contactarme</button>
+                   <dialog class="dialog" id="dialog">
+                    <img src="https://cdn-icons-png.flaticon.com/512/7331/7331166.png" alt="equis" id="close" class="close">
+                    <h2 >Hola, soy Sebastián</h2>
+                    <span class="social__parrafo">Estas son algunas de mis redes sociales donde podras ver mis proyectos y contactarme</span>
+          
+                    <ul class="social-networks">
+                      <li class="social__item"><a href="#" target="_blank" >Linkedin</a></li>
+                      <li class="social__item"><a href="#" target="_blank" >Github</a></li>
+                      <li class="social__item"><a href="#" target="_blank" >Twitter</a></li>
+                      <li class="social__item"><a href="#" target="_blank" >Instagram</a></li>
+                    </ul>
+                  </dialog>
+           
+                </div>
+          
+          
+                <div class="column">
+                  <img src="../public/assets/perfil2.jpg" alt="avatar-pic" class="avatar"/>
+                  <b>Johan Villa Osorio</b>
+                  <p>
+                    Tecnólogo en analisis y desarrollo de software, con conocimientos en 
+                    desarrollo web usando librerias como ReactJS, Tanstack Query, bases 
+                    de datos no relacionales como mongoDB y firebase firestoreDB. Actualmente 
+                    estudia para completar su stack en backend con NestJS y en un futuro, Java.
+                  </p>
+          
+                  <div class="container__list">
+                    <div class="container__hobie">
+                      <h4 class="title__list--hobbie">En mi tiempo libre me gusta</h4>
+                      <ul class="list__hobbie">
+                        <li>Ver series</li>
+                        <li>Leer</li>
+                        <li>Hacer ejercicio</li>
+                      </ul>
+                    </div>
+          
+                      <div class="container__hobbies--mosaic">
+                        <div class="mosaic__flexbox">
+                          <img src="../public/assets/johan-hobby-1.png" alt="Imagen relativa a onepiece" class="mosaic__item">
+                          <img src="../public/assets/johan-hobby-2.jpg" alt="imagen relativa a libros cientificos" class="mosaic__item">
+                          <img src="../public/assets/johan-hobby-3.jpg" alt="imagen relativa a ejercicio" class="mosaic__item">
+                        </div>
+                      </div>
+          
+                    <div class="container__studies">
+                      <h4 class="title__list--studies">Estudios</h4>
+                      <ul class="list__studies">
+                        <li>Colombo Americano</li>
+                        <li>Física (UdeA)</li>
+                        <li>Análisis y desarrollo de software (SENA)</li>
+                        <li>Arquitectura en la nube (Talento Tech Bogotá)</li>
+                      </ul>
+                    </div>
+          
+                    <div class="container_expectations">
+                      <h4 class="title__expectations">Que expectativas se tienen del training?</h4>
+                      <p class="parrafo__expectations">
+                        Espero que el entranamiento me permita adquirir conocimientos en el desarrollo de aplicaciones 
+                        con el enfoque de fullstack, aplicando tecnologías como Java y Angular para crear soluciones
+                        a problemas reales. Además, espero poder trabajar en equipo y aprender de mis compañeros.
+                      </p>
+                    </div>
+                    <div class="container_btn">
+                        <button class="button-social--jv" id="johan-social-button" class="btn-contact" >contactarme</button>
+                    </div>
+          
+                    <dialog class="dialog" id="johan-dialog">
+                      <img src="https://cdn-icons-png.flaticon.com/512/7331/7331166.png" alt="equis" id="close-johan-socials" class="close">
+                      <h2 >Hola, soy Johan!</h2>
+                      <span class="social__parrafo">Estas son algunas de mis redes sociales donde podrás ver mis proyectos y contactarme</span>
+            
+                      <ul class="social-networks">
+                        <li class="social__item"><a href="https://www.linkedin.com/in/johan-villa-669b02281/" target="_blank" >Linkedin</a></li>
+                        <li class="social__item"><a href="https://github.com/JohanVilla1z" target="_blank" >Github</a></li>
+                        <li class="social__item"><a href="https://www.instagram.com/villa1z/" target="_blank" >Instagram</a></li>
+                      </ul>
+                    </dialog>
+          
+                </div>
+              </div>
+          </main>
+          
     </div>
+
+
     <footer class="footer">
         <p class="parrafo__footer">
             <img src="" alt="" class="img__footer">
