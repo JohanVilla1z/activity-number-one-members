@@ -154,6 +154,7 @@ dialog::backdrop {
 
 .mosaic__item {
   width: 30%; 
+  max-height: 200px;
   object-fit: cover; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   transition: transform 0.3s ease; 
