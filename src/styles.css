@@ -123,7 +123,7 @@ dialog::backdrop {
   border-left: 2px solid;
   padding-left: 20px;
 }
-.column img {
+.column .avatar {
   max-width: 10rem;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
