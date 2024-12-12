@@ -135,3 +135,30 @@ dialog::backdrop {
   margin-top: 10px; 
   margin-top: 10px; 
 }
+
+.container__hobbies--mosaic {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.mosaic__flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  width: 100%;
+}
+
+.mosaic__item {
+  width: 30%; 
+  object-fit: cover; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease; 
+}
+
+.mosaic__item:hover {
+  transform: scale(1.05); 
+}
