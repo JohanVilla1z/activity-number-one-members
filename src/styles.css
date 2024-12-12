@@ -5,7 +5,13 @@ html, body {
     height: 100%; /* Asegura que el body ocupe el 100% de la ventana */
     display: flex;
     flex-direction: column;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+
+
 
 main {
     flex: 1; /* Toma el espacio restante */
@@ -90,6 +96,32 @@ main {
 }
 
 
+/* buttons */
+
+.button-social--sb{
+    width: auto;
+    background-color: #00c4cc;
+    cursor: pointer;
+    color: #181818;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+.button-social--jv{
+    width: auto;
+    background-color: #00c4cc;
+    cursor: pointer;
+    color: #181818;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    display: flex;
+}
+
+button:hover{
+    background-color: rgb(83, 197, 48);
+    color: rgb(255, 255, 255);
+}
 
 
 /* footer */
@@ -100,6 +132,27 @@ main {
     padding: 20px;
     width: 100%;
 }
+
+/* complementary */
+.title__list--hobbie{
+    font-size: 18px;
+}
+
+.title__list--studies{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.title__expectations{
+    font-size: 18px;
+}
+
+/* ul{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin: 7px 0;
+} */
 
 /* dialog */
 
@@ -160,6 +213,17 @@ dialog::backdrop {
   }
 }
 
+b{
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.container_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+}
 
 
 /* bio columns */
@@ -212,8 +276,8 @@ dialog::backdrop {
 
 .mosaic__item {
   width: 30%; 
-  max-height: 200px;
-  object-fit: cover; 
+  max-height: 140px;
+  object-fit: fit; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   transition: transform 0.3s ease; 
 }
